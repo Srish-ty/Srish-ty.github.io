@@ -12,7 +12,7 @@ padding: 3vw;
 }
 `
 export const Hdng = styled.h1`
-color:  #ebf5f5;
+color:  #bacccc;
 border: ;
 margin-top: 2.5vw;
 display: flex;
