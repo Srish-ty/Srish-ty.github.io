@@ -1,9 +1,11 @@
 import React from 'react'
 //import styled from "styled-components";
-import { Headi } from './styling/header.style';
+import { Headi,Hdng,S } from './styling/header.style';
 
 export default function Header() {
   return (
-    <Headi/>
+    <Headi>
+      <Hdng>STETH<S>AIM</S></Hdng>
+    </Headi>
   )
 }
