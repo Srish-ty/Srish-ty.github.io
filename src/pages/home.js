@@ -8,6 +8,7 @@ function Home() {
     <>
     <Header><Hdng>STETH<S>AIM</S></Hdng></Header>
     <Nav></Nav>
+    
     </>
   );
 }
