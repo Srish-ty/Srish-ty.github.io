@@ -1,7 +1,7 @@
 import React from 'react'
 //import styled from 'styled-components';
 //import tw from "twin.macro";
-import { NavLink as Link } from "react-router-dom";
+//import { NavLink as Link } from "react-router-dom";
 import { NavBar,Tab } from './styling/nav.style';
 
 
