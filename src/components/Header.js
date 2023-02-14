@@ -1,11 +1,11 @@
 import React from 'react'
 //import styled from "styled-components";
-import { Headi,Hdng,S } from './styling/header.style';
+import { Headi } from './styling/header.style';
 
-export default function Header() {
+export default function Header(props) {
   return (
     <Headi>
-      <Hdng>STETH<S>AIM</S></Hdng>
+      {props.children}
     </Headi>
-  )
+  );
 }

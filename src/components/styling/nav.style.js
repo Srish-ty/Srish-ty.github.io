@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink as Link } from "react-router-dom";
 
 
 export const NavBar = styled.div`
@@ -22,20 +23,25 @@ export const NavBar = styled.div`
 `
 
 
-export const Tab = styled.span`
+export const Tab = styled(Link)`
     padding :0.8vw 2vw 0.8vw 2vw;
     background-color: #30c9c6 ;
     margin-left: 3vw; margin-right:3vw;
     border-radius: 7px;
-    height:vw
+    height:vw;
+    text-decoration:none;
 
     @media only screen and (max-width: 750px){
       width:85%;
       margin:auto;
       }
-
+      &:visited{
+        color: white;
+      }
       &:hover {
         background-color: #ebf5f5;
         color: #30c9c6;
       }
+
+      
 `
